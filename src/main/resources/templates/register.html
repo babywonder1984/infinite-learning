@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Registration</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}"/>
 </head>
 <body>
-     <form   method="post" th:action="@{/register}" >
+     <form  method="post" th:action="@{/register}" >
          <label for="username">username:</label>
          <input type="text" name="username" id="username"/><br/>
 
